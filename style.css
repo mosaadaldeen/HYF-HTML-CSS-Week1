@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(188, 189, 189, 0.445);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-bottom: 20px; */
+}
+
+nav {
+    display: flex;
+}
+
+nav h1 {
+    margin: 30px;
+    color: rgb(103, 94, 231);
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+nav img {
+    border-radius: 60%;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.5em;
+}
+
+.education,
+.work,
+.skills,
+.languages {
+    margin: 20px;
+}
+
+.education p {
+    color: rgb(71, 45, 42);
+}
+
+.work p {
+    color: rgb(71, 45, 42);
+}
+
+ul li {
+    margin: 5px;
+    color: rgb(29, 63, 107);
+    font-size: 1.4em;
+    font-weight: bold;
+    list-style: none;
+}
+
+.skills ul li,
+.languages ul li {
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+footer p {
+    margin-top: 15px;
+    font-size: 1.6em;
+    color: rgb(212, 212, 212);
+}
